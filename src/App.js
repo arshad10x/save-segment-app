@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import { Button } from '@mui/material';
 import PopupForm from './components/PopupForm';
@@ -16,7 +15,7 @@ const App = () => {
 
   const handleSave = (segmentData) => {
     console.log('Segment Data:', segmentData); // Logs the segment data
-   // wekhook site not working 
+   // wekhook site not working so not added
     handleClose(); // Close the popup after saving
   };
 
